@@ -1,0 +1,26 @@
+programa {
+  funcao inicio() {
+    //inteiro: apenas números inteiros
+    //real == números com ponto flutuante
+    //caracter == apenas uma letra
+    //cadeia == lista de caracteres
+    //logico == verdadeiro ou falso
+
+    escreva("Olá mundo!\n")
+    escreva("Maldição quebrada!\n")
+    inteiro numero1
+    escreva("\nDigite um número: \n")
+    leia(numero1)
+    escreva("O número digitado foi " , numero1, "\n") 
+
+    caracter primeiraLetra
+    escreva("\nEscreva seu nome: ")
+    leia(primeiraLetra)
+    escreva("A primeira letra do seu nome é " , primeiraLetra, "\n")  
+
+    cadeia nome
+    escreva("\nEscreva seu nome: ")
+    leia(nome)
+    escreva("Seu nome é ", nome, "\n")
+  }
+}

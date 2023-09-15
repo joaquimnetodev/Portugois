@@ -1,0 +1,26 @@
+programa {
+  funcao inicio() {
+
+    real num1, num2
+
+    escreva("Digite o primeiro número: ")
+    leia(num1)
+
+    escreva("Digite o segundo número: ")
+    leia(num2)
+
+    real adicao, multiplicacao, divisao, subtracao, resto
+
+    adicao = num1 + num2
+    multiplicacao = num1 * num2
+    divisao = num1 / num2
+    subtracao = num1 - num2
+    resto = num1 % num2      
+
+    escreva("\nA soma é ", adicao)
+    escreva("\nO produto é ", multiplicacao)
+    escreva("\nA razão é ", divisao)
+    escreva("\nA diferença é ", subtracao)
+    escreva("\nO resto da divisão é ", resto, "\n")
+  }
+}

@@ -1,0 +1,9 @@
+programa {
+  funcao inicio() {
+    //função que recebe e imprime o nome
+    cadeia nome
+    escreva("Digite seu nome: \n")
+    leia(nome)
+    escreva("\nSeja bem-vindo ", nome, "\n")
+  }
+}
